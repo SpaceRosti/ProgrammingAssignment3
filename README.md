@@ -1,11 +1,11 @@
-## How to run :
+# How to run :
 You can use the function tidydata(). It will download the data sets if they are not,applied all the functions and return a data frame contening a tidy data set.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-## Function : 
+# Function : 
 
-# In the order in wich they should be called :
+## In the order in wich they should be called :
 
 1)downloadzipfile() : Download the files and check if they already exist.
 
@@ -20,6 +20,6 @@ You can use the function tidydata(). It will download the data sets if they are 
 6)createaverage(x=data.frame()) :  Create a data set with the average of each variable for each activity and each subject and return the data frame.
 
 
-# To use all the previous function in one call :
+## To use all the previous function in one call :
 
 tidydata() : Combine all the previous function and return a tidy data set.
