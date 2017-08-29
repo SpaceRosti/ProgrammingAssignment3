@@ -1,4 +1,4 @@
-The explanations about the data and the variables come from the original folder of the the data sets. The transformations applied on them are listed at the end of the document.
+The description about the data and the variables comes from the original folder of the the data sets. The transformations applied on them are listed at the end of the document.
 
 ## Feature Selection 
 =================
@@ -60,4 +60,9 @@ tBodyGyroJerkMean
 
 -------------------------------------------------------------------------------------------------------------------------------
 ## Transformations applied on the data sets:
+
+1. The files y_train.txt and subject_train.txt have been added to to the X_train.txt file as columns at the beginning of it. The same transformation have been applied on the files from the text folder. The two data sets were then merged togheter(by adding the lines of one to the other).
+2. The measurements on the mean and standard deviation for each measurement were extracted(that doesn't include meanFreq).
+3. The numbers who represent an activity have been replaced by the name of the activity and variables have been renamed according to the name they are given in the feature.txt file.
+4. A tidy data set with the average of each variable for each activity and each subject has been created.
 
